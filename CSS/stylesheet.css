@@ -17,7 +17,6 @@
     color: var(--main-color);
     background: var(--third-color);
     font-size: 14px;
-    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
@@ -34,6 +33,26 @@
     font-size: 14px;
     line-height: 1.14;
     color: var(--first-color);
+    text-decoration: none;
+    list-style-type: none;
+    letter-spacing: 0.02em;
+}
+
+.contacts1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--second-color);
+    text-decoration: none;
+    list-style-type: none;
+    letter-spacing: 0.02em;
+}
+
+.contacts2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--little-color);
     text-decoration: none;
     list-style-type: none;
     letter-spacing: 0.02em;
@@ -58,7 +77,7 @@
 }
 
 .logo-link::first-letter{
-    font-size: 96px;  /*НЕ ВИЖУ ДАННЫХ !!*/
+    font-size: 96px;  /*НЕ ВИЖУ ДАННЫХ !*/
 }
 
 .logo-header{
@@ -94,6 +113,7 @@
 }
 
 .comand-text{
+    color: var(--little-color) ;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -101,7 +121,6 @@
 
 .third-title{
     color: var(--main-color);
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -130,7 +149,6 @@
 .title{
     color: var(--main-color);
     font-family: 'Roboto',sans-serif;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
 }
